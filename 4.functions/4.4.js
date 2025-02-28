@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')();
 
 /**
  * 
- * @function rand10 
+ * @function randarr 
  * donne un nombre aléatoire entre 1 et 10 
  * 
  * @returns {number} un nombre aléatoire de la longueur d'un tableau
