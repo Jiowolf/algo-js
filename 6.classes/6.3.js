@@ -52,7 +52,7 @@ class Rectangle{
  for(let j=1;j<=rectArr.length;j++){
     //console.log(j)
     for(let k=j;k<rectArr.length;k++){
-        if(rectArr[j].collides(rectArr[k]) === false){
+        if(rectArr[j].collides(rectArr[k]) === true){
             console.log("rectangle "+j+" touche rectangle "+k);
         }else{
             console.log("can't touch this!!!!!!")
